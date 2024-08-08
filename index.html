@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "src/style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
+
+    <title>Weather Application</title>
+</head>
+<body>
+<div class = "weather-app">
+<div>
+<header>
+    <form class = "search-form" id="search-form">
+        <input type = "search" placeholder = "Enter a city..." required class = "search-form-input" id="search-form-input">
+        <input type = "submit" value = "Search" class = "search-form-button">
+    </form>
+</header>
+
+<main>
+<div class = "weather-app-data">
+
+<div>
+<h1 class = "weather-app-city" id= "weather-app-city">
+</h1>
+
+<p class = "weather-app-details">
+    <span id = "time"> </span>, <span id = "description"> </span>
+</br>
+    Humidity: <strong id = "humidity"> </strong>, Wind: <strong id = "wind-speed"> </strong>
+</p>
+</div>
+
+  <div class = "weather-app-temp-container">
+      <div id = "icon">
+        </div>
+      <div class = "weather-app-temperature" id = "temperature"> </div>
+      <div class = "weather-app-unit"> °C </div>
+   </div>
+</div>
+</div>
+
+<div class = "weatherForecasts" id = "forecast">
+<div class="weatherForecastDay">
+    <div class="weatherDate"> Tue </div>
+    <div class="weatherIcon"> ⛅ </div>
+    <div class="weatherTemperatures">
+        <div class="weatherTemperature">
+        <strong> 15°</strong>
+        </div>
+        <div> 9°</div>
+    </div>
+</div>
+
+<div class="weatherForecastDay">
+<div class="weatherDate"> Tue </div>
+<div class="weatherIcon"> ⛅ </div>
+<div class="weatherTemperatures">
+    <div class="weatherTemperature">
+        <strong> 15°</strong>
+    </div>
+    <div> 9°</div>
+</div>
+</div>
+
+<div class="weatherForecastDay">
+<div class="weatherDate"> Wed </div>
+<div class="weatherIcon"> ⛅ </div>
+<div class="weatherTemperatures">
+    <div class="weatherTemperature">
+        <strong> 15°</strong>
+    </div>
+    <div> 9°</div>
+</div>
+</div>
+
+<div class="weatherForecastDay">
+<div class="weatherDate"> Wed </div>
+<div class="weatherIcon"> ⛅ </div>
+<div class="weatherTemperatures">
+    <div class="weatherTemperature">
+        <strong> 15°</strong>
+    </div>
+    <div> 9°</div>
+</div>
+</div>
+
+</div>
+</div>
+</main>
+
+
+<footer>
+    Coded by
+    <a href = "https://github.com/anastaciaintech" target = "_blank"> Reratile Lefyedi, </a>
+    is
+    <a href = "https://github.com/anastaciaintech/Weather-Application" target = "_blank"> open-sourced on GitHub </a>
+    and hosted on 
+    <a href = "https://github.com/anastaciaintech/Weather-Application" target = "_blank"> on Netlify </a>
+</footer>
+
+</div>
+
+<script src = "src/index.js">
+
+
+
+
+</script>
+
+</body>
+
+</html>
